@@ -1,0 +1,116 @@
+.navBar{
+    background-color: black;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.navBarHeader{
+flex: 3;
+padding: 10px;
+margin-left: 70px;
+color: white;
+}
+
+.navSearch{
+    padding: 0;
+flex: 5;
+background-color: rgb(27, 27, 27);
+display: flex;
+gap: 30px;
+align-items: center;
+justify-content:space-evenly;
+}
+.navSearch > input {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(27, 27, 27);
+    font-size: larger;
+}
+
+.navSearch > button {
+background-color:black;
+color: white;
+width: 150px;
+margin-bottom: 10px;
+margin-right: 10px;
+border: none;
+padding: 10px;
+cursor: pointer;
+}
+.profile{
+flex: 4;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+.profile > .account{
+    font-size: 50px;
+    color: aliceblue;
+}
+.profile > .signIn{
+    color: white;
+    font-weight: bold;
+    margin-left: 20px;
+}
+ .signout{
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    margin-right: 20px;
+ }
+.profile > .btn{
+    background-color: rgb(53, 51, 51);
+    color: white;
+    width: 150px;
+    margin-bottom: 10px;
+    margin-left: 80px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:560px) {
+    .navBarHeader{
+        padding: 0;
+        margin: 0;
+        font-size: small;
+    }
+    .navBar{
+        height: 200px;
+        justify-content: space-between;
+        
+    }
+    .navSearch{
+        padding: 0;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .profile{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+    }
+    .profile > .btn{
+        background-color: rgb(53, 51, 51);
+        color: white;
+        width: 100px;
+        border: none;
+        cursor: pointer;
+        margin-right: 30px;
+        font-size: 10px;
+    }
+    .profile > pic{
+        width: 20px;
+        height: 20px;
+    }
+    
+    .signIn{
+        font-size: 10px;
+    }
+
+}

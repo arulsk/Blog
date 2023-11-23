@@ -1,0 +1,42 @@
+.HomePage{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    height: 100vh;
+    background-color:brown;
+    padding: 30px;
+}
+
+.loginMessage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    gap: 0px;
+    
+}
+.loginMessage >img {
+    background-color: brown;
+}
+
+.loginMessage > h1{
+    padding: 0;
+    margin: 0;
+    font-size: 50px;
+    text-decoration: underline;
+    margin-left: 29px;
+    
+}
+button{
+    padding: 7px ;
+    border: none;
+    background-color:brown;
+    width: 215px;
+    margin-top: 10px;
+    margin-left: 17px;
+}
+
+.loginMessage p{
+    margin-top: 15px;
+}
